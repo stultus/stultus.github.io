@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://stultus.in/post/big-brother-experiments/</loc>
+    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stultus.in/post/open-access-manifesto/</loc>
     <lastmod>2014-10-02T09:32:45-04:00</lastmod>
   </url>
@@ -46,13 +51,31 @@
   
   <url>
     <loc>https://stultus.in/tags/activism/</loc>
-    <lastmod>2009-01-25T09:32:45-04:00</lastmod>
+    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stultus.in/tags/archive/</loc>
     <lastmod>2009-01-25T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/censorship/</loc>
+    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/democrasy/</loc>
+    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/freedom/</loc>
+    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,7 +87,13 @@
   
   <url>
     <loc>https://stultus.in/tags/hacktivism/</loc>
-    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
+    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/internet/</loc>
+    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,7 +123,7 @@
   
   <url>
     <loc>https://stultus.in/post/</loc>
-    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
+    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
