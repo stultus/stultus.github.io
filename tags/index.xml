@@ -6,10 +6,19 @@
     <description>Recent content in Tags on stultus.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Nov 2010 09:32:45 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2009 09:32:45 -0400</lastBuildDate>
     
 	<atom:link href="https://stultus.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Archive</title>
+      <link>https://stultus.in/tags/archive/</link>
+      <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/archive/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hack</title>
@@ -17,6 +26,15 @@
       <pubDate>Wed, 03 Nov 2010 09:32:45 -0400</pubDate>
       
       <guid>https://stultus.in/tags/hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lasantha Wickrematunge</title>
+      <link>https://stultus.in/tags/lasantha-wickrematunge/</link>
+      <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/lasantha-wickrematunge/</guid>
       <description></description>
     </item>
     
@@ -35,6 +53,15 @@
       <pubDate>Wed, 03 Nov 2010 09:32:45 -0400</pubDate>
       
       <guid>https://stultus.in/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Sunday Reader</title>
+      <link>https://stultus.in/tags/the-sunday-reader/</link>
+      <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/the-sunday-reader/</guid>
       <description></description>
     </item>
     

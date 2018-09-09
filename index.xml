@@ -31,5 +31,15 @@ I am a software engineer, privacy advocate, pythonista and a free software enthu
 sudo apt-get install fortune-mod cowsay sudo apt-get install fortune  Now we have the database installed in our system.</description>
     </item>
     
+    <item>
+      <title>And Then They Came For Me!</title>
+      <link>https://stultus.in/post/and-then-they-came-for-me/</link>
+      <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/post/and-then-they-came-for-me/</guid>
+      <description>Lasantha Manilal Wickrematunge (5 April 1958 – 8 January 2009) was a Sri Lankan journalist, politician and human rights activist who was assassinated in January 2009. The following is an editorial Wickremange had written shortly before his death, and that was published posthumously
+And Then They Came For Me No other profession calls on its practitioners to lay down their lives for their art save the armed forces and, in Sri Lanka, journalism.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -13,8 +13,25 @@
   </url>
   
   <url>
+    <loc>https://stultus.in/post/and-then-they-came-for-me/</loc>
+    <lastmod>2009-01-25T09:32:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/archive/</loc>
+    <lastmod>2009-01-25T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stultus.in/tags/hack/</loc>
     <lastmod>2010-11-03T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/lasantha-wickrematunge/</loc>
+    <lastmod>2009-01-25T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -32,13 +49,19 @@
   
   <url>
     <loc>https://stultus.in/tags/</loc>
-    <lastmod>2010-11-03T09:32:45-04:00</lastmod>
+    <lastmod>2009-01-25T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stultus.in/tags/terminal/</loc>
     <lastmod>2010-11-03T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/the-sunday-reader/</loc>
+    <lastmod>2009-01-25T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
