@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://stultus.in/post/open-access-manifesto/</loc>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stultus.in/post/malayalam-page-numbers-using-xelatex/</loc>
     <lastmod>2013-10-03T09:32:45-04:00</lastmod>
   </url>
@@ -28,6 +33,24 @@
   </url>
   
   <url>
+    <loc>https://stultus.in/tags/aaron/</loc>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/aaron-swartz/</loc>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/activism/</loc>
+    <lastmod>2009-01-25T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stultus.in/tags/archive/</loc>
     <lastmod>2009-01-25T09:32:45-04:00</lastmod>
     <priority>0</priority>
@@ -35,7 +58,13 @@
   
   <url>
     <loc>https://stultus.in/tags/hack/</loc>
-    <lastmod>2013-10-03T09:32:45-04:00</lastmod>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/hacktivism/</loc>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,14 +87,20 @@
   </url>
   
   <url>
+    <loc>https://stultus.in/tags/open-access/</loc>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stultus.in/post/</loc>
-    <lastmod>2013-10-03T09:32:45-04:00</lastmod>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stultus.in/tags/</loc>
-    <lastmod>2009-01-25T09:32:45-04:00</lastmod>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -78,6 +113,12 @@
   <url>
     <loc>https://stultus.in/tags/the-sunday-reader/</loc>
     <lastmod>2009-01-25T09:32:45-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/translation/</loc>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   

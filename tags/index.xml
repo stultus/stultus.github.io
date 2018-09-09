@@ -6,10 +6,37 @@
     <description>Recent content in Tags on stultus.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jan 2009 09:32:45 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2014 09:32:45 -0400</lastBuildDate>
     
 	<atom:link href="https://stultus.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aaron</title>
+      <link>https://stultus.in/tags/aaron/</link>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/aaron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aaron Swartz</title>
+      <link>https://stultus.in/tags/aaron-swartz/</link>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/aaron-swartz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Activism</title>
+      <link>https://stultus.in/tags/activism/</link>
+      <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/activism/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Archive</title>
@@ -23,9 +50,18 @@
     <item>
       <title>Hack</title>
       <link>https://stultus.in/tags/hack/</link>
-      <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
       
       <guid>https://stultus.in/tags/hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacktivism</title>
+      <link>https://stultus.in/tags/hacktivism/</link>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/hacktivism/</guid>
       <description></description>
     </item>
     
@@ -57,6 +93,15 @@
     </item>
     
     <item>
+      <title>Open Access</title>
+      <link>https://stultus.in/tags/open-access/</link>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/open-access/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Terminal</title>
       <link>https://stultus.in/tags/terminal/</link>
       <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
@@ -71,6 +116,15 @@
       <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
       
       <guid>https://stultus.in/tags/the-sunday-reader/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translation</title>
+      <link>https://stultus.in/tags/translation/</link>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/translation/</guid>
       <description></description>
     </item>
     
