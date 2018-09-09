@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stultus</title>
-    <link>http://stultus.in/</link>
+    <link>https://stultus.in/</link>
     <description>Recent content on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Aug 2018 09:51:51 -0400</lastBuildDate>
     
-	<atom:link href="http://stultus.in/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stultus.in/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Me</title>
-      <link>http://stultus.in/about/</link>
+      <link>https://stultus.in/about/</link>
       <pubDate>Tue, 14 Aug 2018 09:51:51 -0400</pubDate>
       
-      <guid>http://stultus.in/about/</guid>
+      <guid>https://stultus.in/about/</guid>
       <description>I am Hrishikesh (natively written as ഋഷികേശ് in Malayalam). The name is of Sanskrit origin, meaning “the Lord/Master of senses”.
 I am a software engineer, privacy advocate, pythonista and a free software enthusiast. Most of my contributions has been in the language computing space under the aegis of the organisation Swathathra Malayalam Computing. I also contribute to the PeARS Project - which is an ongoing effort to build a fully distributed, p2p search engine.</description>
     </item>
