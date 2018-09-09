@@ -4,18 +4,27 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="description" content="">
-    <meta property="og:title" content="Tags">
+    <meta property="og:title" content="Get Mint Like Fortune-Cookie in your Ubuntu Terminal!">
     
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2010-11-03">
     
     <meta property="og:description" content="">
-    <meta property="og:url" content="https://stultus.in/tags/">
+    <meta property="og:url" content="https://stultus.in/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/">
     <meta property="og:site_name" content="stultus.in">
     
+    <meta property="og:tags" content="hack">
+    
+    <meta property="og:tags" content="linux mint">
+    
+    <meta property="og:tags" content="terminal">
+    
     <meta name="generator" content="Hugo 0.46" />
-    <title>Tags &middot; stultus.in</title>
+    <title>Get Mint Like Fortune-Cookie in your Ubuntu Terminal! &middot; stultus.in</title>
     
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
     
     <link rel="stylesheet" href="https://stultus.in/css/style.css">
     
@@ -102,20 +111,86 @@
 			<div class="row">
 				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
 
-<article>
+<main>
 	<header>
-		<h1>Tags</a></h1>
+		<h1>Get Mint Like Fortune-Cookie in your Ubuntu Terminal!</h1>
 	</header>
-<ul>
-	
-	<li><a href="https://stultus.in/tags/hack/">Hack</a></li>
-	
-	<li><a href="https://stultus.in/tags/linux-mint/">Linux Mint</a></li>
-	
-	<li><a href="https://stultus.in/tags/terminal/">Terminal</a></li>
-	
-</ul>
-</article>
+
+	<article>
+		<p>Most of you might have noticed a cool feature which is available in Linux-Mint,
+each time when you open a Terminal, it will display a cool - simple quote.
+We don&rsquo;t have this option in Ubuntu. but we can have it.
+First we have to install the Fortune Cookie Database in our system. we can do that by typing the following in a terminal.</p>
+
+<pre><code>sudo apt-get install fortune-mod cowsay 
+
+sudo apt-get install fortune
+</code></pre>
+
+<p>Now we have the database installed in our system. have a try by typing the following:</p>
+
+<pre><code>fortune
+</code></pre>
+
+<p>Now let us borrow a cool script from the Mint people.
+open  your favorite editor and type the following script in it and save it in <code>/usr/bin/</code> by the name <code>fortune</code>.</p>
+
+<pre><code>#!/bin/bash
+RANGE=4
+number=$RANDOM
+let &quot;number %= $RANGE&quot;
+case $number in
+ 0)
+  cow=&quot;small&quot;
+  ;;
+ 1)
+  cow=&quot;tux&quot;
+  ;;
+ 2)
+  cow=&quot;koala&quot;
+  ;;
+ 3)
+  cow=&quot;moose&quot;
+  ;;
+esac
+
+RANGE=2
+number=$RANDOM
+let &quot;number %= $RANGE&quot;
+case $number in
+ 0)
+  command=&quot;/usr/games/cowsay&quot;
+  ;;
+ 1)
+  command=&quot;/usr/games/cowthink&quot;
+  ;;
+esac
+
+/usr/games/fortune | $command -f $cow
+</code></pre>
+
+<p>Now change the mode of this file to executable by typing the following in the terminal</p>
+
+<pre><code>     sudo chmod +x /usr/bin/fortune
+</code></pre>
+
+<p>finally call this script from <code>.bashrc</code> file.</p>
+
+<pre><code>    sudo echo &quot;/usr/bin/fortune&quot; &gt;&gt; ~/.bashrc
+</code></pre>
+
+<p>Done !!! Now you will get a cool Fortune-Cookie , each time when you open the terminal&hellip;</p>
+
+<p>Enjoy !! and Happy Hacking !!</p>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+	<a href=" https://stultus.in/" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
+</div>
+
+
 
 						</div>
 					</div>
@@ -130,6 +205,8 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
   
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
   
   <script src="https://stultus.in//js/App.js"></script>
   

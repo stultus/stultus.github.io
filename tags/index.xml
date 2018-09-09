@@ -6,9 +6,37 @@
     <description>Recent content in Tags on stultus.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 03 Nov 2010 09:32:45 -0400</lastBuildDate>
     
 	<atom:link href="https://stultus.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hack</title>
+      <link>https://stultus.in/tags/hack/</link>
+      <pubDate>Wed, 03 Nov 2010 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux Mint</title>
+      <link>https://stultus.in/tags/linux-mint/</link>
+      <pubDate>Wed, 03 Nov 2010 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/linux-mint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>https://stultus.in/tags/terminal/</link>
+      <pubDate>Wed, 03 Nov 2010 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/tags/terminal/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
