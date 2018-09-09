@@ -22,6 +22,16 @@ I am a software engineer, privacy advocate, pythonista and a free software enthu
     </item>
     
     <item>
+      <title>Brightness issue in Linux mint 14</title>
+      <link>https://stultus.in/post/brightness-issue-in-linux-mint-14/</link>
+      <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
+      
+      <guid>https://stultus.in/post/brightness-issue-in-linux-mint-14/</guid>
+      <description>I recently installed linux mint 14 (Nadia) in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key. Later I had the same problem when Ubuntu 12.10 was installed on the same laptop. So here is a permanent fix for the issue.
+ Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file.</description>
+    </item>
+    
+    <item>
       <title>Get Mint Like Fortune-Cookie in your Ubuntu Terminal!</title>
       <link>https://stultus.in/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/</link>
       <pubDate>Wed, 03 Nov 2010 09:32:45 -0400</pubDate>

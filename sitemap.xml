@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://stultus.in/post/brightness-issue-in-linux-mint-14/</loc>
+    <lastmod>2013-01-26T09:32:45-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stultus.in/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/</loc>
     <lastmod>2010-11-03T09:32:45-04:00</lastmod>
   </url>
@@ -25,7 +30,7 @@
   
   <url>
     <loc>https://stultus.in/tags/hack/</loc>
-    <lastmod>2010-11-03T09:32:45-04:00</lastmod>
+    <lastmod>2013-01-26T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,13 +42,13 @@
   
   <url>
     <loc>https://stultus.in/tags/linux-mint/</loc>
-    <lastmod>2010-11-03T09:32:45-04:00</lastmod>
+    <lastmod>2013-01-26T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stultus.in/post/</loc>
-    <lastmod>2010-11-03T09:32:45-04:00</lastmod>
+    <lastmod>2013-01-26T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -55,7 +60,7 @@
   
   <url>
     <loc>https://stultus.in/tags/terminal/</loc>
-    <lastmod>2010-11-03T09:32:45-04:00</lastmod>
+    <lastmod>2013-01-26T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -67,6 +72,12 @@
   
   <url>
     <loc>https://stultus.in/tutorials/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stultus.in/tags/ubuntu/</loc>
+    <lastmod>2013-01-26T09:32:45-04:00</lastmod>
     <priority>0</priority>
   </url>
   
