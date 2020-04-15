@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux Mint on stultus.in</title>
-    <link>https://stultus.in/tags/linux-mint/</link>
-    <description>Recent content in Linux Mint on stultus.in</description>
+    <title>linux mint on stultus</title>
+    <link>/tags/linux-mint/</link>
+    <description>Recent content in linux mint on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Sat, 26 Jan 2013 09:32:45 -0400</lastBuildDate>
     
-	<atom:link href="https://stultus.in/tags/linux-mint/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/linux-mint/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Brightness issue in Linux mint 14</title>
-      <link>https://stultus.in/post/brightness-issue-in-linux-mint-14/</link>
+      <link>/post/brightness-issue-in-linux-mint-14/</link>
       <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/post/brightness-issue-in-linux-mint-14/</guid>
+      <guid>/post/brightness-issue-in-linux-mint-14/</guid>
       <description>I recently installed linux mint 14 (Nadia) in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key. Later I had the same problem when Ubuntu 12.10 was installed on the same laptop. So here is a permanent fix for the issue.
  Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file.</description>
     </item>
     
     <item>
       <title>Get Mint Like Fortune-Cookie in your Ubuntu Terminal!</title>
-      <link>https://stultus.in/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/</link>
+      <link>/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/</link>
       <pubDate>Wed, 03 Nov 2010 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/</guid>
+      <guid>/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/</guid>
       <description>Most of you might have noticed a cool feature which is available in Linux-Mint, each time when you open a Terminal, it will display a cool - simple quote. We don&amp;rsquo;t have this option in Ubuntu. but we can have it. First we have to install the Fortune Cookie Database in our system. we can do that by typing the following in a terminal.
-sudo apt-get install fortune-mod cowsay sudo apt-get install fortune  Now we have the database installed in our system.</description>
+sudo apt-get install fortune-mod cowsay sudo apt-get install fortune Now we have the database installed in our system.</description>
     </item>
     
   </channel>

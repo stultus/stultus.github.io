@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Free Software on stultus.in</title>
-    <link>https://stultus.in/tags/free-software/</link>
-    <description>Recent content in Free Software on stultus.in</description>
+    <title>free software on stultus</title>
+    <link>/tags/free-software/</link>
+    <description>Recent content in free software on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 02 Apr 2014 09:32:45 -0400</lastBuildDate>
     
-	<atom:link href="https://stultus.in/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>കമ്പ്യൂട്ടറിലെ സ്വാതന്ത്ര്യസമരം</title>
-      <link>https://stultus.in/post/freedom-struggle-in-computer/</link>
+      <link>/post/freedom-struggle-in-computer/</link>
       <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/post/freedom-struggle-in-computer/</guid>
+      <guid>/post/freedom-struggle-in-computer/</guid>
       <description>മനു­ഷ്യ­ജീ­വി­ത­ത്തില്‍ കാ­ത­ലായ മാ­റ്റ­ങ്ങള്‍ സൃ­ഷ്ടി­ച്ച കണ്ടു പി­ടു­ത്ത­മാ­യി­രു­ന്നു കമ്പ്യൂ­ട്ട­റി­ന്റേ­ത്. സങ്കീര്‍­ണ്ണ­വും ഒരു­പാ­ട് സമ­യ­ച്ചി­ല­വു­ള്ള­തു­മായ നി­ര­വ­ധി കാ­ര്യ­ങ്ങള്‍ ഞൊ­ടി­യി­ട­യില്‍ ചെ­യ്തു­തീര്‍­ക്കാന്‍ സഹാ­യ­ക­മാ­ണെ­ന്ന­തി­നാല്‍ കമ്പ്യൂ­ട്ടര്‍ പ്ര­ചു­ര­പ്ര­ചാ­രം നേ­ടു­ക­യും മനു­ഷ്യ­ന്റെ ശാ­സ്ത്ര, സാ­ങ്കേ­തിക നേ­ട്ട­ങ്ങ­ളില്‍ വി­സ്മ­രി­ക്കാ­നാ­വാ­ത്ത പങ്കു വഹി­ക്കു­ക­യും ചെ­യ്തു. ഒരു കൂ­ട്ടം ഇല­ക്ട്രോ­ണി­ക്‌‌ നിര്‍­ദ്ദേ­ശ­ങ്ങള്‍­ക്ക­നു­സൃ­ത­മാ­യാ­ണു് കമ്പ്യൂ­ട്ട­റു­കള്‍ പ്ര­വര്‍­ത്തി­ക്കുക. ഇത്ത­രം ഇല­ക്ട്രോ­ണി­ക്‌‌ നിര്‍­ദ്ദേ­ശ­ങ്ങ­ളെ കമ്പ്യൂ­ട്ടര്‍ പ്രോ­ഗ­്രാ­മു­കള്‍ എന്നു­വി­ളി­ക്കു­ന്നു. കമ്പ്യൂ­ട്ട­റി­നു മന­സി­ലാ­വു­ന്ന ഭാ­ഷ­യില്‍ ഇത്ത­രം പ്രോ­ഗ­്രാ­മു­കള്‍ എഴു­തു­ന്ന­വ­രാ­ണു് കമ്പ്യൂ­ട്ടര്‍ പ്രോ­ഗ­്രാ­മ്മര്‍­മാര്‍. ഒരു പ്ര­ത്യേക പ്ര­ശ്നം പരി­ഹ­രി­ക്കു­ന്ന­തി­നാ­യി രചി­ക്ക­പ്പെ­ട്ട, പര­സ്പ­ര­സ­ഹ­ക­ര­ണ­ത്തോ­ടെ പ്ര­വര്‍­ത്തി­ക്കു­ന്ന സങ്കീര്‍­ണ്ണ­മായ ഒരു­കൂ­ട്ടം കമ്പ്യൂ­ട്ടര്‍ പ്രോ­ഗ­്രാ­മു­കള്‍ ചേര്‍­ന്ന­താ­ണ് സോ­ഫ്റ്റ്‌‌വെ­യര്‍.
-ഒരു പ്ര­ശ്നം പരി­ഹ­രി­ക്കു­ന്ന­തി­നാ­യി കമ്പ്യൂ­ട്ട­റി­നു നല്കു­ന്ന ഒരു കൂ­ട്ടം നിര്‍­ദ്ദേ­ശ­ങ്ങ­ളാ­ണു് കമ്പ്യൂ­ട്ടര്‍ പ്രോ­ഗ­്രാ­മു­ക­ളെ­ന്നു പറ­ഞ്ഞു­വ­ല്ലോ.</description>
+ഒരു പ്ര­ശ്നം പരി­ഹ­രി­ക്കു­ന്ന­തി­നാ­യി കമ്പ്യൂ­ട്ട­റി­നു നല്കു­ന്ന ഒരു കൂ­ട്ടം നിര്‍­ദ്ദേ­ശ­ങ്ങ­ളാ­ണു് കമ്പ്യൂ­ട്ടര്‍ പ്രോ­ഗ­്രാ­മു­ക­ളെ­ന്നു പറ­ഞ്ഞു­വ­ല്ലോ. ഇത് രണ്ടു സം­ഖ്യ­ക­ളു­ടെ തുക കണ്ടു പി­ടി­ക്കുക എന്ന­തു­പോ­ലെ­യു­ള്ള ലളി­ത­മായ പ്ര­ശ്ന­ങ്ങള്‍ മു­തല്‍ ഒരു ബഹി­രാ­കാശ റോ­ക്ക­റ്റി­ന്റെ ഗതി നിര്‍­ണ്ണ­യി­ക്കു­ന്ന­തു­പോ­ലെ­യു­ള്ള സങ്കീര്‍­ണ്ണ­മായ പ്ര­ശ്ന­ങ്ങള്‍ വരെ­യാ­കാം.</description>
     </item>
     
   </channel>

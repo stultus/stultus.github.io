@@ -1,274 +1,274 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on stultus.in</title>
-    <link>https://stultus.in/tags/</link>
-    <description>Recent content in Tags on stultus.in</description>
+    <title>Tags on stultus</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 02 Oct 2014 09:32:45 -0400</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Feb 2016 09:32:45 -0400</lastBuildDate>
     
-	<atom:link href="https://stultus.in/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Aaron</title>
-      <link>https://stultus.in/tags/aaron/</link>
-      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/aaron/</guid>
-      <description></description>
-    </item>
     
     <item>
-      <title>Aaron Swartz</title>
-      <link>https://stultus.in/tags/aaron-swartz/</link>
-      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/aaron-swartz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Activism</title>
-      <link>https://stultus.in/tags/activism/</link>
+      <title>activism</title>
+      <link>/tags/activism/</link>
       <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/activism/</guid>
+      <guid>/tags/activism/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Archive</title>
-      <link>https://stultus.in/tags/archive/</link>
-      <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
+      <title>facebook</title>
+      <link>/tags/facebook/</link>
+      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/archive/</guid>
+      <guid>/tags/facebook/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Books</title>
-      <link>https://stultus.in/tags/books/</link>
+      <title>hactivism</title>
+      <link>/tags/hactivism/</link>
+      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/hactivism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>internet</title>
+      <link>/tags/internet/</link>
+      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>internet freedom</title>
+      <link>/tags/internet-freedom/</link>
+      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/internet-freedom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>net neutrality</title>
+      <link>/tags/net-neutrality/</link>
+      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/net-neutrality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>/tags/books/</link>
       <pubDate>Thu, 24 Dec 2015 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/books/</guid>
+      <guid>/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Censorship</title>
-      <link>https://stultus.in/tags/censorship/</link>
+      <title>reading</title>
+      <link>/tags/reading/</link>
+      <pubDate>Thu, 24 Dec 2015 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>censorship</title>
+      <link>/tags/censorship/</link>
       <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/censorship/</guid>
+      <guid>/tags/censorship/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Democrasy</title>
-      <link>https://stultus.in/tags/democrasy/</link>
+      <title>democrasy</title>
+      <link>/tags/democrasy/</link>
       <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/democrasy/</guid>
+      <guid>/tags/democrasy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Facebook</title>
-      <link>https://stultus.in/tags/facebook/</link>
-      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/facebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Foss</title>
-      <link>https://stultus.in/tags/foss/</link>
-      <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/foss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Free Software</title>
-      <link>https://stultus.in/tags/free-software/</link>
-      <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/free-software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Freedom</title>
-      <link>https://stultus.in/tags/freedom/</link>
+      <title>freedom</title>
+      <link>/tags/freedom/</link>
       <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/freedom/</guid>
+      <guid>/tags/freedom/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hack</title>
-      <link>https://stultus.in/tags/hack/</link>
+      <title>hack</title>
+      <link>/tags/hack/</link>
+      <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hacktivism</title>
+      <link>/tags/hacktivism/</link>
+      <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/hacktivism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aaron</title>
+      <link>/tags/aaron/</link>
       <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/hack/</guid>
+      <guid>/tags/aaron/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hacktivism</title>
-      <link>https://stultus.in/tags/hacktivism/</link>
-      <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
+      <title>aaron swartz</title>
+      <link>/tags/aaron-swartz/</link>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/hacktivism/</guid>
+      <guid>/tags/aaron-swartz/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hactivism</title>
-      <link>https://stultus.in/tags/hactivism/</link>
-      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
+      <title>open access</title>
+      <link>/tags/open-access/</link>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/hactivism/</guid>
+      <guid>/tags/open-access/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Internet</title>
-      <link>https://stultus.in/tags/internet/</link>
-      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
+      <title>translation</title>
+      <link>/tags/translation/</link>
+      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/internet/</guid>
+      <guid>/tags/translation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Internet Freedom</title>
-      <link>https://stultus.in/tags/internet-freedom/</link>
-      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
+      <title>FOSS</title>
+      <link>/tags/foss/</link>
+      <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/internet-freedom/</guid>
+      <guid>/tags/foss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>free software</title>
+      <link>/tags/free-software/</link>
+      <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/free-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>politics</title>
+      <link>/tags/politics/</link>
+      <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>malayalam</title>
+      <link>/tags/malayalam/</link>
+      <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/malayalam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unicode</title>
+      <link>/tags/unicode/</link>
+      <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/unicode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xelatex</title>
+      <link>/tags/xelatex/</link>
+      <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/xelatex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux mint</title>
+      <link>/tags/linux-mint/</link>
+      <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/linux-mint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>/tags/terminal/</link>
+      <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>/tags/ubuntu/</link>
+      <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archive</title>
+      <link>/tags/archive/</link>
+      <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
+      
+      <guid>/tags/archive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lasantha Wickrematunge</title>
-      <link>https://stultus.in/tags/lasantha-wickrematunge/</link>
+      <link>/tags/lasantha-wickrematunge/</link>
       <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/lasantha-wickrematunge/</guid>
+      <guid>/tags/lasantha-wickrematunge/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Linux Mint</title>
-      <link>https://stultus.in/tags/linux-mint/</link>
-      <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/linux-mint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Malayalam</title>
-      <link>https://stultus.in/tags/malayalam/</link>
-      <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/malayalam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Net Neutrality</title>
-      <link>https://stultus.in/tags/net-neutrality/</link>
-      <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/net-neutrality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Access</title>
-      <link>https://stultus.in/tags/open-access/</link>
-      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/open-access/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Politics</title>
-      <link>https://stultus.in/tags/politics/</link>
-      <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/politics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reading</title>
-      <link>https://stultus.in/tags/reading/</link>
-      <pubDate>Thu, 24 Dec 2015 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>https://stultus.in/tags/terminal/</link>
-      <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Sunday Reader</title>
-      <link>https://stultus.in/tags/the-sunday-reader/</link>
+      <title>The sunday reader</title>
+      <link>/tags/the-sunday-reader/</link>
       <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/tags/the-sunday-reader/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Translation</title>
-      <link>https://stultus.in/tags/translation/</link>
-      <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/translation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>https://stultus.in/tags/ubuntu/</link>
-      <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unicode</title>
-      <link>https://stultus.in/tags/unicode/</link>
-      <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/unicode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xelatex</title>
-      <link>https://stultus.in/tags/xelatex/</link>
-      <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
-      
-      <guid>https://stultus.in/tags/xelatex/</guid>
+      <guid>/tags/the-sunday-reader/</guid>
       <description></description>
     </item>
     

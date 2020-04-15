@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unicode on stultus.in</title>
-    <link>https://stultus.in/tags/unicode/</link>
-    <description>Recent content in Unicode on stultus.in</description>
+    <title>unicode on stultus</title>
+    <link>/tags/unicode/</link>
+    <description>Recent content in unicode on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Thu, 03 Oct 2013 09:32:45 -0400</lastBuildDate>
     
-	<atom:link href="https://stultus.in/tags/unicode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/unicode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Malayalam Page Numbers in XeLatex</title>
-      <link>https://stultus.in/post/malayalam-page-numbers-using-xelatex/</link>
+      <link>/post/malayalam-page-numbers-using-xelatex/</link>
       <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
       
-      <guid>https://stultus.in/post/malayalam-page-numbers-using-xelatex/</guid>
+      <guid>/post/malayalam-page-numbers-using-xelatex/</guid>
       <description>Recently I had an opportunity to be a part of an effort to enable SCERT(The Govt. organization which is responsible for the content, curriculum and the textbooks which are used in the schools of the state) to use unicode technologies for textbook publishing.
 As part of this effort, we tried to typeset Malayalam textbooks for 5th, 7th and 11th standards using xelatex.
 I wrote the following macro to automatically generate the page numbers using malayalam numerals</description>

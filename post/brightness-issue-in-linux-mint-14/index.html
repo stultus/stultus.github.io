@@ -1,157 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
-<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <meta name="description" content="">
-    <meta property="og:title" content="Brightness issue in Linux mint 14">
+<html lang="ml">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Hrishikesh Bhaskaran">
+    <meta name="description" content="Hrishikesh Bhaskaran">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Brightness issue in Linux mint 14"/>
+<meta name="twitter:description" content="I recently installed linux mint 14 (Nadia) in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key. Later I had the same problem when Ubuntu 12.10 was installed on the same laptop. So here is a permanent fix for the issue.
+ Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file."/>
+
+    <meta property="og:title" content="Brightness issue in Linux mint 14" />
+<meta property="og:description" content="I recently installed linux mint 14 (Nadia) in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key. Later I had the same problem when Ubuntu 12.10 was installed on the same laptop. So here is a permanent fix for the issue.
+ Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/brightness-issue-in-linux-mint-14/" />
+<meta property="article:published_time" content="2013-01-26T09:32:45-04:00" />
+<meta property="article:modified_time" content="2013-01-26T09:32:45-04:00" />
+
+
     
-    <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2013-01-26">
+      <base href="/post/brightness-issue-in-linux-mint-14/">
     
-    <meta property="og:description" content="">
-    <meta property="og:url" content="https://stultus.in/post/brightness-issue-in-linux-mint-14/">
-    <meta property="og:site_name" content="stultus.in">
+    <title>
+  Brightness issue in Linux mint 14 · stultus
+</title>
+
     
-    <meta property="og:tags" content="hack">
+      <link rel="canonical" href="/post/brightness-issue-in-linux-mint-14/">
     
-    <meta property="og:tags" content="linux mint">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
     
-    <meta property="og:tags" content="terminal">
-    
-    <meta property="og:tags" content="ubuntu">
-    
-    <meta name="generator" content="Hugo 0.54.0" />
-    <title>Brightness issue in Linux mint 14 &middot; stultus.in</title>
-    
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link rel="stylesheet" href="https://stultus.in/css/style.css">
-    
-    <link href="https://stultus.in/index.xml" rel="alternate" type="application/rss+xml" title="stultus.in" />
-    
-    
-    <link rel="icon" href="https://stultus.in/favicon.ico" />
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
-    
-</head>
-<body>
 
-<nav class="navbar navbar-default navbar-fixed-top visible-xs">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			
-				<a class="navbar-brand" href="https://stultus.in/">Hrishikesh Bhaskaran</a>
-			
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav">
-				
-				
-					<li><a href="https://stultus.in/about/">About</a></li>
-				
-					<li><a href="https://stultus.in/post/">Blog</a></li>
-				
-					<li><a href="https://stultus.in/resume/">Resume</a></li>
-				
-			</ul>
-		</div>
-	</div>
+    
+
+    
+      <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.68.3" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      stultus
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
 </nav>
-<div class="container-fluid">
-	<div class="row">
-		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
-	<div id="menu-content" class="vertical-align">
-		
-			<h1 class="text-center"><a href="https://stultus.in/">Hrishikesh Bhaskaran</a></h1>
-		
-		
-		
-			<small class="text-center center-block">Husband | Hacktivist | Programmer</small>
-		
-		
-		
-			<img id="profile-pic" src="https://stultus.in//img/hrishi.jpg" alt="My Picture" class="img-circle center-block">
-		
-		<div id="social" class="text-center">
-			
-				<a href="https://github.com/stultus"><i class="fa fa-github fa-2x"></i></a>
-			
-				<a href="https://twitter.com/_stultus"><i class="fa fa-twitter fa-2x"></i></a>
-			
-				<a href="https://linkedin.com/in/stultus/"><i class="fa fa-linkedin fa-2x"></i></a>
-			
-				<a href="https://goodreads.com/stultus/"><i class="fa fa-book fa-2x"></i></a>
-			
 
-			<a href="mailto:hrishi.kb@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
-		</div>
-		<div id="links" class="text-center">
-			
-			
-				<a href="https://stultus.in/about/">About</a>
-			
-				<a href="https://stultus.in/post/">Blog</a>
-			
-				<a href="https://stultus.in/resume/">Resume</a>
-			
-		</div>
-	</div>
-</div>
 
-		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
-			<div class="row">
-				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Brightness issue in Linux mint 14</h1>
+    </header>
 
-<main>
-	<header>
-		<h1>Brightness issue in Linux mint 14</h1>
-	</header>
-
-	<article>
-		<p>I recently installed linux mint 14 (Nadia)   in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key.  Later I had the same problem when Ubuntu 12.10  was installed on the same laptop.  So here is a permanent fix for the issue.</p>
-
+    <p>I recently installed linux mint 14 (Nadia)   in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key.  Later I had the same problem when Ubuntu 12.10  was installed on the same laptop.  So here is a permanent fix for the issue.</p>
 <ul>
 <li>Current brightness value  is stored in  <code>/sys/class/backlight/acpi_video0/brightness</code>  file.</li>
 <li>Maximum brightness value is  stored in  <code>/sys/class/backlight/acpi_video0/max_brightness</code> file.</li>
 <li>Add the following line to <code>/etc/rc.local</code> init script. ( If you want know what this file is, check this <a href="https://unix.stackexchange.com/questions/49626/purpose-and-typical-usage-of-etc-rc-local">stackexchange question</a>)</li>
 </ul>
-
-<pre><code>cat /sys/class/backlight/acpi_video0/max_brightness &gt; /sys/class/backlight/acpi_video0/brightness 
-</code></pre>
-
-	</article>
-</main>
-
-<div id="bottom-nav" class="text-center center-block">
-	<a href=" https://stultus.in/" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
-</div>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cat /sys/class/backlight/acpi_video0/max_brightness &gt; /sys/class/backlight/acpi_video0/brightness 
+</code></pre></div>
+  </article>
+</section>
 
 
+      </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-  </div>
-  
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  
-  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
-  
-  
-  <script src="https://stultus.in//js/App.js"></script>
-  
-</body>
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Enter a text here.</p>
+      
+      
+        ©
+        
+        2020
+         Hrishikesh Bhaskaran 
+      
+      
+         · 
+         <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+  </body>
+
 </html>
