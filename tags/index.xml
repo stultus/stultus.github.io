@@ -6,10 +6,46 @@
     <description>Recent content in Tags on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Feb 2016 09:32:45 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 03:09:13 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>audiobook</title>
+      <link>/tags/audiobook/</link>
+      <pubDate>Mon, 27 Apr 2020 03:09:13 +0530</pubDate>
+      
+      <guid>/tags/audiobook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fiction</title>
+      <link>/tags/fiction/</link>
+      <pubDate>Mon, 27 Apr 2020 03:09:13 +0530</pubDate>
+      
+      <guid>/tags/fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>malayalam</title>
+      <link>/tags/malayalam/</link>
+      <pubDate>Mon, 27 Apr 2020 03:09:13 +0530</pubDate>
+      
+      <guid>/tags/malayalam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wikisource</title>
+      <link>/tags/wikisource/</link>
+      <pubDate>Mon, 27 Apr 2020 03:09:13 +0530</pubDate>
+      
+      <guid>/tags/wikisource/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>activism</title>
@@ -93,11 +129,11 @@
     </item>
     
     <item>
-      <title>democrasy</title>
-      <link>/tags/democrasy/</link>
+      <title>democracy</title>
+      <link>/tags/democracy/</link>
       <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
       
-      <guid>/tags/democrasy/</guid>
+      <guid>/tags/democracy/</guid>
       <description></description>
     </item>
     
@@ -188,15 +224,6 @@
       <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
       
       <guid>/tags/politics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>malayalam</title>
-      <link>/tags/malayalam/</link>
-      <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/malayalam/</guid>
       <description></description>
     </item>
     
