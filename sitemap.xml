@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-04-27T03:09:13+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2020-04-27T03:09:13+05:30</lastmod>
   </url>
@@ -49,11 +54,6 @@
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2018-08-14T09:51:51-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2018-08-14T09:51:51-04:00</lastmod>
   </url>
   
@@ -133,11 +133,6 @@
   </url>
   
   <url>
-    <loc>/tags/hack/</loc>
-    <lastmod>2015-08-07T09:32:45-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/hacktivism/</loc>
     <lastmod>2015-08-07T09:32:45-04:00</lastmod>
   </url>
@@ -154,6 +149,11 @@
   
   <url>
     <loc>/tags/aaron-swartz/</loc>
+    <lastmod>2014-10-02T09:32:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hack/</loc>
     <lastmod>2014-10-02T09:32:45-04:00</lastmod>
   </url>
   
