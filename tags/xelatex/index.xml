@@ -6,7 +6,11 @@
     <description>Recent content in xelatex on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Oct 2013 09:32:45 -0400</lastBuildDate><atom:link href="/tags/xelatex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2013 09:32:45 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/xelatex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Malayalam Page Numbers in XeLatex</title>
       <link>/post/malayalam-page-numbers-using-xelatex/</link>

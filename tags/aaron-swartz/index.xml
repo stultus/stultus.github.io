@@ -6,7 +6,11 @@
     <description>Recent content in aaron swartz on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Oct 2014 09:32:45 -0400</lastBuildDate><atom:link href="/tags/aaron-swartz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Oct 2014 09:32:45 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/aaron-swartz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>ചങ്ങലയ്ക്കിട്ട അറിവിനെ സ്വതന്ത്രമാക്കാനുള്ള ഒളിപ്പോരിന്റെ പ്രകടന പത്രിക</title>
       <link>/post/open-access-manifesto/</link>
