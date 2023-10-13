@@ -6,11 +6,7 @@
     <description>Recent content in hack on stultus</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Oct 2014 09:32:45 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/hack/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 02 Oct 2014 09:32:45 -0400</lastBuildDate><atom:link href="/tags/hack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ചങ്ങലയ്ക്കിട്ട അറിവിനെ സ്വതന്ത്രമാക്കാനുള്ള ഒളിപ്പോരിന്റെ പ്രകടന പത്രിക</title>
       <link>/post/open-access-manifesto/</link>
@@ -39,7 +35,7 @@ I wrote the following macro to automatically generate the page numbers using mal
       
       <guid>/post/brightness-issue-in-linux-mint-14/</guid>
       <description>I recently installed linux mint 14 (Nadia) in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key. Later I had the same problem when Ubuntu 12.10 was installed on the same laptop. So here is a permanent fix for the issue.
- Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file.</description>
+Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file.</description>
     </item>
     
     <item>

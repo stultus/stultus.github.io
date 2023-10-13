@@ -12,13 +12,13 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Brightness issue in Linux mint 14"/>
 <meta name="twitter:description" content="I recently installed linux mint 14 (Nadia) in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key. Later I had the same problem when Ubuntu 12.10 was installed on the same laptop. So here is a permanent fix for the issue.
- Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file."/>
+Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file."/>
 
     <meta property="og:title" content="Brightness issue in Linux mint 14" />
 <meta property="og:description" content="I recently installed linux mint 14 (Nadia) in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key. Later I had the same problem when Ubuntu 12.10 was installed on the same laptop. So here is a permanent fix for the issue.
- Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file." />
+Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/brightness-issue-in-linux-mint-14/" />
+<meta property="og:url" content="/post/brightness-issue-in-linux-mint-14/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2013-01-26T09:32:45-04:00" />
 <meta property="article:modified_time" content="2013-01-26T09:32:45-04:00" />
 
@@ -59,7 +59,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.119.0">
   </head>
 
   
@@ -111,8 +111,8 @@
 <li>Maximum brightness value is  stored in  <code>/sys/class/backlight/acpi_video0/max_brightness</code> file.</li>
 <li>Add the following line to <code>/etc/rc.local</code> init script. ( If you want know what this file is, check this <a href="https://unix.stackexchange.com/questions/49626/purpose-and-typical-usage-of-etc-rc-local">stackexchange question</a>)</li>
 </ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cat /sys/class/backlight/acpi_video0/max_brightness &gt; /sys/class/backlight/acpi_video0/brightness 
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>cat /sys/class/backlight/acpi_video0/max_brightness &gt; /sys/class/backlight/acpi_video0/brightness 
+</span></span></code></pre></div>
   </article>
 </section>
 
@@ -128,7 +128,7 @@
       
         ©
         
-        2021
+        2023
          Hrishikesh Bhaskaran 
       
       
