@@ -18,9 +18,10 @@ sudo apt-get install fortune-mod cowsay sudo apt-get install fortune Now we have
 <meta property="og:description" content="Most of you might have noticed a cool feature which is available in Linux-Mint, each time when you open a Terminal, it will display a cool - simple quote. We don&rsquo;t have this option in Ubuntu. but we can have it. First we have to install the Fortune Cookie Database in our system. we can do that by typing the following in a terminal.
 sudo apt-get install fortune-mod cowsay sudo apt-get install fortune Now we have the database installed in our system." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/" />
+<meta property="og:url" content="/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2010-11-03T09:32:45-04:00" />
 <meta property="article:modified_time" content="2010-11-03T09:32:45-04:00" />
+
 
 
     
@@ -59,7 +60,7 @@ sudo apt-get install fortune-mod cowsay sudo apt-get install fortune Now we have
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.92.2" />
   </head>
 
   
@@ -109,14 +110,14 @@ sudo apt-get install fortune-mod cowsay sudo apt-get install fortune Now we have
 each time when you open a Terminal, it will display a cool - simple quote.
 We don&rsquo;t have this option in Ubuntu. but we can have it.
 First we have to install the Fortune Cookie Database in our system. we can do that by typing the following in a terminal.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt-get install fortune-mod cowsay 
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt-get install fortune-mod cowsay 
 
 sudo apt-get install fortune
 </code></pre></div><p>Now we have the database installed in our system. have a try by typing the following:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">fortune
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">fortune
 </code></pre></div><p>Now let us borrow a cool script from the Mint people.
 open  your favorite editor and type the following script in it and save it in <code>/usr/bin/</code> by the name <code>fortune</code>.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="">#!/bin/bash
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="">#!/bin/bash
 </span><span style=""></span>RANGE=4
 number=$RANDOM
 let <span style="font-style:italic">&#34;number %= </span>$RANGE<span style="font-style:italic">&#34;</span>
@@ -149,9 +150,9 @@ let <span style="font-style:italic">&#34;number %= </span>$RANGE<span style="fon
 
 /usr/games/fortune | $command -f $cow
 </code></pre></div><p>Now change the mode of this file to executable by typing the following in the terminal</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    sudo chmod +x /usr/bin/fortune
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    sudo chmod +x /usr/bin/fortune
 </code></pre></div><p>finally call this script from <code>.bashrc</code> file.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  sudo echo &#34;/usr/bin/fortune&#34; &gt;&gt; ~/.bashrc
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">  sudo echo &#34;/usr/bin/fortune&#34; &gt;&gt; ~/.bashrc
 </code></pre></div><p>Done !!! Now you will get a cool Fortune-Cookie , each time when you open the terminal&hellip;</p>
 <p>Enjoy !! and Happy Hacking !!</p>
 
@@ -170,7 +171,7 @@ let <span style="font-style:italic">&#34;number %= </span>$RANGE<span style="fon
       
         ©
         
-        2021
+        2024
          Hrishikesh Bhaskaran 
       
       
