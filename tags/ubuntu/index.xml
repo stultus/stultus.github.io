@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ubuntu on stultus</title>
+    <title>Ubuntu on stultus</title>
     <link>/tags/ubuntu/</link>
-    <description>Recent content in ubuntu on stultus</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ubuntu on stultus</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Jan 2013 09:32:45 -0400</lastBuildDate><atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jan 2013 09:32:45 -0400</lastBuildDate>
+    <atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brightness issue in Linux mint 14</title>
       <link>/post/brightness-issue-in-linux-mint-14/</link>
       <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
-      
       <guid>/post/brightness-issue-in-linux-mint-14/</guid>
-      <description>I recently installed linux mint 14 (Nadia) in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key. Later I had the same problem when Ubuntu 12.10 was installed on the same laptop. So here is a permanent fix for the issue.
- Current brightness value is stored in /sys/class/backlight/acpi_video0/brightness file.</description>
+      <description>&lt;p&gt;I recently installed linux mint 14 (Nadia)   in my office laptop (HP Notebook 450 ). after installation when I booted into the os , the screen brightness was set very very low which I was able to adjust using the brightness function key.  Later I had the same problem when Ubuntu 12.10  was installed on the same laptop.  So here is a permanent fix for the issue.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Current brightness value  is stored in  &lt;code&gt;/sys/class/backlight/acpi_video0/brightness&lt;/code&gt;  file.&lt;/li&gt;&#xA;&lt;li&gt;Maximum brightness value is  stored in  &lt;code&gt;/sys/class/backlight/acpi_video0/max_brightness&lt;/code&gt; file.&lt;/li&gt;&#xA;&lt;li&gt;Add the following line to &lt;code&gt;/etc/rc.local&lt;/code&gt; init script. ( If you want know what this file is, check this &lt;a href=&#34;https://unix.stackexchange.com/questions/49626/purpose-and-typical-usage-of-etc-rc-local&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;stackexchange question&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat /sys/class/backlight/acpi_video0/max_brightness &amp;gt; /sys/class/backlight/acpi_video0/brightness &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Get Mint Like Fortune-Cookie in your Ubuntu Terminal!</title>
       <link>/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/</link>
       <pubDate>Wed, 03 Nov 2010 09:32:45 -0400</pubDate>
-      
       <guid>/post/get-mint-like-fortune-cookie-in-your-ubuntu-terminal/</guid>
-      <description>Most of you might have noticed a cool feature which is available in Linux-Mint, each time when you open a Terminal, it will display a cool - simple quote. We don&amp;rsquo;t have this option in Ubuntu. but we can have it. First we have to install the Fortune Cookie Database in our system. we can do that by typing the following in a terminal.
-sudo apt-get install fortune-mod cowsay sudo apt-get install fortune Now we have the database installed in our system.</description>
+      <description>&lt;p&gt;Most of you might have noticed a cool feature which is available in Linux-Mint,&#xA;each time when you open a Terminal, it will display a cool - simple quote.&#xA;We don&amp;rsquo;t have this option in Ubuntu. but we can have it.&#xA;First we have to install the Fortune Cookie Database in our system. we can do that by typing the following in a terminal.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install fortune-mod cowsay &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install fortune&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now we have the database installed in our system. have a try by typing the following:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
