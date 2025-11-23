@@ -6,6 +6,24 @@
   <title>Linux Mint</title>
   <link rel="stylesheet" href="/css/style.css">
 
+<link rel="stylesheet" href="/css/custom.css">
+
+
+  <script>
+    
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      const theme = savedTheme !== null ? savedTheme : 'dark';
+      
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark-theme');
+      } else {
+        document.documentElement.classList.remove('dark-theme');
+      }
+    })();
+  </script>
 </head>
 <body>
   <div class="wrapper">
@@ -13,8 +31,23 @@
       <header>
   <div class="nav">
     <div class="logo-container">
-      <h1><a href="/">stultus</a></h1>
+      <a href="/" class="site-title">stultus</a>
     </div>
+    
+    
+    <nav class="desktop-nav">
+      <ul class="desktop-nav-links">
+        
+          <li><a href="/post/">blog</a></li>
+        
+          <li><a href="/about/">about</a></li>
+        
+          <li><a href="/notes/">notes</a></li>
+        
+      </ul>
+    </nav>
+    
+    
     <div class="inner-nav-group">
       <div class="icon-menu">
         <span class="bar bar--1"></span>
@@ -22,20 +55,20 @@
         <span class="bar bar--3"></span>
       </div>
     </div>
-    
-    
-    <nav class="mobile-nav">
-      <ul class="nav-links">
-        
-          <li class="nav-link-li"><a class="nav-link" href="/post/">blog</a></li>
-        
-          <li class="nav-link-li"><a class="nav-link" href="/about/">about</a></li>
-        
-          <li class="nav-link-li"><a class="nav-link" href="/notes/">notes</a></li>
-        
-      </ul>
-    </nav>
   </div>
+  
+  
+  <nav class="mobile-nav">
+    <ul class="nav-links">
+      
+        <li class="nav-link-li"><a class="nav-link" href="/post/">blog</a></li>
+      
+        <li class="nav-link-li"><a class="nav-link" href="/about/">about</a></li>
+      
+        <li class="nav-link-li"><a class="nav-link" href="/notes/">notes</a></li>
+      
+    </ul>
+  </nav>
 </header>
 
       <main class="content-container">
@@ -63,33 +96,97 @@
 
       </main>
       <footer class="footer">
-  <p>&copy; 2024 stultus | <a href="/credits/">Credits</a></p>
+  <p>&copy; 2025 stultus | <a href="/credits/">Credits</a></p>
 </footer>
 
     </div>
   </div>
 
+  
+  <button class="theme-toggle" aria-label="Toggle dark mode">
+    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </button>
+
   <script>
     document.addEventListener('DOMContentLoaded', function() {
+      
+      const savedTheme = localStorage.getItem('theme');
+      const theme = savedTheme !== null ? savedTheme : 'dark';
+      if (theme === 'dark') {
+        document.body.classList.add('dark-theme');
+      } else {
+        document.body.classList.remove('dark-theme');
+      }
+
+      
       const menuIcon = document.querySelector('.icon-menu');
       const mobileNav = document.querySelector('.mobile-nav');
       const navContainer = document.querySelector('.nav');
 
       if (menuIcon && mobileNav && navContainer) {
-        menuIcon.addEventListener('click', () => {
+        menuIcon.addEventListener('click', (event) => {
+          event.stopPropagation();
           mobileNav.classList.toggle('is-visible');
           menuIcon.classList.toggle('open');
         });
 
         
-        document.addEventListener('click', (event) => {
-          const isClickInsideNav = navContainer.contains(event.target);
-          if (!isClickInsideNav && mobileNav.classList.contains('is-visible')) {
+        mobileNav.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
             mobileNav.classList.remove('is-visible');
             menuIcon.classList.remove('open');
-          }
+          });
         });
       }
+
+      
+      const themeToggle = document.querySelector('.theme-toggle');
+      const sunIcon = document.querySelector('.sun-icon');
+      const moonIcon = document.querySelector('.moon-icon');
+      
+      function updateIcons() {
+        const isDark = document.body.classList.contains('dark-theme');
+        sunIcon.style.display = isDark ? 'none' : 'block';
+        moonIcon.style.display = isDark ? 'block' : 'none';
+      }
+
+      
+      updateIcons();
+
+      themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+        document.documentElement.classList.toggle('dark-theme');
+        const isDark = document.body.classList.contains('dark-theme');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        updateIcons();
+      });
+
+      
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        if (localStorage.getItem('theme') === null) {
+          if (e.matches) {
+            document.body.classList.add('dark-theme');
+            document.documentElement.classList.add('dark-theme');
+          } else {
+            document.body.classList.remove('dark-theme');
+            document.documentElement.classList.remove('dark-theme');
+          }
+          updateIcons();
+        }
+      });
     });
   </script>
 </body>
