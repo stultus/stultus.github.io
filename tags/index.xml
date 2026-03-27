@@ -2,302 +2,235 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on stultus</title>
-    <link>/tags/</link>
+    <link>http://localhost:1315/tags/</link>
     <description>Recent content in Tags on stultus</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 27 Apr 2020 03:09:13 +0530</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:1315/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>audiobook</title>
-      <link>/tags/audiobook/</link>
+      <title>Audiobook</title>
+      <link>http://localhost:1315/tags/audiobook/</link>
       <pubDate>Mon, 27 Apr 2020 03:09:13 +0530</pubDate>
-      
-      <guid>/tags/audiobook/</guid>
+      <guid>http://localhost:1315/tags/audiobook/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>fiction</title>
-      <link>/tags/fiction/</link>
+      <title>Fiction</title>
+      <link>http://localhost:1315/tags/fiction/</link>
       <pubDate>Mon, 27 Apr 2020 03:09:13 +0530</pubDate>
-      
-      <guid>/tags/fiction/</guid>
+      <guid>http://localhost:1315/tags/fiction/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>malayalam</title>
-      <link>/tags/malayalam/</link>
+      <title>Malayalam</title>
+      <link>http://localhost:1315/tags/malayalam/</link>
       <pubDate>Mon, 27 Apr 2020 03:09:13 +0530</pubDate>
-      
-      <guid>/tags/malayalam/</guid>
+      <guid>http://localhost:1315/tags/malayalam/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wikisource</title>
-      <link>/tags/wikisource/</link>
+      <title>Wikisource</title>
+      <link>http://localhost:1315/tags/wikisource/</link>
       <pubDate>Mon, 27 Apr 2020 03:09:13 +0530</pubDate>
-      
-      <guid>/tags/wikisource/</guid>
+      <guid>http://localhost:1315/tags/wikisource/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>activism</title>
-      <link>/tags/activism/</link>
+      <title>Activism</title>
+      <link>http://localhost:1315/tags/activism/</link>
       <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/activism/</guid>
+      <guid>http://localhost:1315/tags/activism/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>facebook</title>
-      <link>/tags/facebook/</link>
+      <title>Facebook</title>
+      <link>http://localhost:1315/tags/facebook/</link>
       <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/facebook/</guid>
+      <guid>http://localhost:1315/tags/facebook/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hactivism</title>
-      <link>/tags/hactivism/</link>
+      <title>Hactivism</title>
+      <link>http://localhost:1315/tags/hactivism/</link>
       <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/hactivism/</guid>
+      <guid>http://localhost:1315/tags/hactivism/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>internet</title>
-      <link>/tags/internet/</link>
+      <title>Internet</title>
+      <link>http://localhost:1315/tags/internet/</link>
       <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/internet/</guid>
+      <guid>http://localhost:1315/tags/internet/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>internet freedom</title>
-      <link>/tags/internet-freedom/</link>
+      <title>Internet Freedom</title>
+      <link>http://localhost:1315/tags/internet-freedom/</link>
       <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/internet-freedom/</guid>
+      <guid>http://localhost:1315/tags/internet-freedom/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>net neutrality</title>
-      <link>/tags/net-neutrality/</link>
+      <title>Net Neutrality</title>
+      <link>http://localhost:1315/tags/net-neutrality/</link>
       <pubDate>Mon, 15 Feb 2016 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/net-neutrality/</guid>
+      <guid>http://localhost:1315/tags/net-neutrality/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>books</title>
-      <link>/tags/books/</link>
+      <title>Books</title>
+      <link>http://localhost:1315/tags/books/</link>
       <pubDate>Thu, 24 Dec 2015 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/books/</guid>
+      <guid>http://localhost:1315/tags/books/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reading</title>
-      <link>/tags/reading/</link>
+      <title>Reading</title>
+      <link>http://localhost:1315/tags/reading/</link>
       <pubDate>Thu, 24 Dec 2015 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/reading/</guid>
+      <guid>http://localhost:1315/tags/reading/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>censorship</title>
-      <link>/tags/censorship/</link>
+      <title>Censorship</title>
+      <link>http://localhost:1315/tags/censorship/</link>
       <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/censorship/</guid>
+      <guid>http://localhost:1315/tags/censorship/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>democracy</title>
-      <link>/tags/democracy/</link>
+      <title>Democracy</title>
+      <link>http://localhost:1315/tags/democracy/</link>
       <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/democracy/</guid>
+      <guid>http://localhost:1315/tags/democracy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>freedom</title>
-      <link>/tags/freedom/</link>
+      <title>Freedom</title>
+      <link>http://localhost:1315/tags/freedom/</link>
       <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/freedom/</guid>
+      <guid>http://localhost:1315/tags/freedom/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hacktivism</title>
-      <link>/tags/hacktivism/</link>
+      <title>Hacktivism</title>
+      <link>http://localhost:1315/tags/hacktivism/</link>
       <pubDate>Fri, 07 Aug 2015 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/hacktivism/</guid>
+      <guid>http://localhost:1315/tags/hacktivism/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>aaron</title>
-      <link>/tags/aaron/</link>
+      <title>Aaron</title>
+      <link>http://localhost:1315/tags/aaron/</link>
       <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/aaron/</guid>
+      <guid>http://localhost:1315/tags/aaron/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>aaron swartz</title>
-      <link>/tags/aaron-swartz/</link>
+      <title>Aaron Swartz</title>
+      <link>http://localhost:1315/tags/aaron-swartz/</link>
       <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/aaron-swartz/</guid>
+      <guid>http://localhost:1315/tags/aaron-swartz/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hack</title>
-      <link>/tags/hack/</link>
+      <title>Hack</title>
+      <link>http://localhost:1315/tags/hack/</link>
       <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/hack/</guid>
+      <guid>http://localhost:1315/tags/hack/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>open access</title>
-      <link>/tags/open-access/</link>
+      <title>Open Access</title>
+      <link>http://localhost:1315/tags/open-access/</link>
       <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/open-access/</guid>
+      <guid>http://localhost:1315/tags/open-access/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>translation</title>
-      <link>/tags/translation/</link>
+      <title>Translation</title>
+      <link>http://localhost:1315/tags/translation/</link>
       <pubDate>Thu, 02 Oct 2014 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/translation/</guid>
+      <guid>http://localhost:1315/tags/translation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FOSS</title>
-      <link>/tags/foss/</link>
+      <link>http://localhost:1315/tags/foss/</link>
       <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/foss/</guid>
+      <guid>http://localhost:1315/tags/foss/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>free software</title>
-      <link>/tags/free-software/</link>
+      <title>Free Software</title>
+      <link>http://localhost:1315/tags/free-software/</link>
       <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/free-software/</guid>
+      <guid>http://localhost:1315/tags/free-software/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>politics</title>
-      <link>/tags/politics/</link>
+      <title>Politics</title>
+      <link>http://localhost:1315/tags/politics/</link>
       <pubDate>Wed, 02 Apr 2014 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/politics/</guid>
+      <guid>http://localhost:1315/tags/politics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>unicode</title>
-      <link>/tags/unicode/</link>
+      <title>Unicode</title>
+      <link>http://localhost:1315/tags/unicode/</link>
       <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/unicode/</guid>
+      <guid>http://localhost:1315/tags/unicode/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>xelatex</title>
-      <link>/tags/xelatex/</link>
+      <title>Xelatex</title>
+      <link>http://localhost:1315/tags/xelatex/</link>
       <pubDate>Thu, 03 Oct 2013 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/xelatex/</guid>
+      <guid>http://localhost:1315/tags/xelatex/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux mint</title>
-      <link>/tags/linux-mint/</link>
+      <title>Linux Mint</title>
+      <link>http://localhost:1315/tags/linux-mint/</link>
       <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/linux-mint/</guid>
+      <guid>http://localhost:1315/tags/linux-mint/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>terminal</title>
-      <link>/tags/terminal/</link>
+      <title>Terminal</title>
+      <link>http://localhost:1315/tags/terminal/</link>
       <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/terminal/</guid>
+      <guid>http://localhost:1315/tags/terminal/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ubuntu</title>
-      <link>/tags/ubuntu/</link>
+      <title>Ubuntu</title>
+      <link>http://localhost:1315/tags/ubuntu/</link>
       <pubDate>Sat, 26 Jan 2013 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/ubuntu/</guid>
+      <guid>http://localhost:1315/tags/ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>archive</title>
-      <link>/tags/archive/</link>
+      <title>Archive</title>
+      <link>http://localhost:1315/tags/archive/</link>
       <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/archive/</guid>
+      <guid>http://localhost:1315/tags/archive/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lasantha Wickrematunge</title>
-      <link>/tags/lasantha-wickrematunge/</link>
+      <link>http://localhost:1315/tags/lasantha-wickrematunge/</link>
       <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/lasantha-wickrematunge/</guid>
+      <guid>http://localhost:1315/tags/lasantha-wickrematunge/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>The sunday reader</title>
-      <link>/tags/the-sunday-reader/</link>
+      <title>The Sunday Reader</title>
+      <link>http://localhost:1315/tags/the-sunday-reader/</link>
       <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
-      
-      <guid>/tags/the-sunday-reader/</guid>
+      <guid>http://localhost:1315/tags/the-sunday-reader/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
