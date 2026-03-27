@@ -1,19 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Archive on stultus</title>
-    <link>http://localhost:1315/tags/archive/</link>
-    <description>Recent content in Archive on stultus</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 25 Jan 2009 09:32:45 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1315/tags/archive/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>And Then They Came For Me!</title>
-      <link>http://localhost:1315/post/and-then-they-came-for-me/</link>
-      <pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate>
-      <guid>http://localhost:1315/post/and-then-they-came-for-me/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lasantha_Wickrematunge&#34;&gt;Lasantha Manilal Wickrematunge&lt;/a&gt; (5 April 1958 – 8 January 2009) was a Sri Lankan journalist, politician and human rights activist who was assassinated in January 2009.  The following is an editorial Wickremange had written shortly before his death, and that was published posthumously&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-then-they-came-for-me&#34;&gt;And Then They Came For Me&lt;/h3&gt;&#xA;&lt;p&gt;No other profession calls on its practitioners to lay down their lives for their art save the armed forces and, in Sri Lanka, journalism. In the course of the past few years, the independent media have increasingly come under attack. Electronic and print-media institutions have been burnt, bombed, sealed and coerced. Countless journalists have been harassed, threatened and killed. It has been my honour to belong to all those categories and now especially the last.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Archive on stultus</title><link>https://stultus.in/tags/archive/</link><description>Recent content in Archive on stultus</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 25 Jan 2009 09:32:45 -0400</lastBuildDate><atom:link href="https://stultus.in/tags/archive/index.xml" rel="self" type="application/rss+xml"/><item><title>And Then They Came For Me!</title><link>https://stultus.in/post/and-then-they-came-for-me/</link><pubDate>Sun, 25 Jan 2009 09:32:45 -0400</pubDate><guid>https://stultus.in/post/and-then-they-came-for-me/</guid><description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Lasantha_Wickrematunge"&gt;Lasantha Manilal Wickrematunge&lt;/a&gt; (5 April 1958 – 8 January 2009) was a Sri Lankan journalist, politician and human rights activist who was assassinated in January 2009. The following is an editorial Wickremange had written shortly before his death, and that was published posthumously&lt;/p&gt;
+&lt;h3 id="and-then-they-came-for-me"&gt;And Then They Came For Me&lt;/h3&gt;
+&lt;p&gt;No other profession calls on its practitioners to lay down their lives for their art save the armed forces and, in Sri Lanka, journalism. In the course of the past few years, the independent media have increasingly come under attack. Electronic and print-media institutions have been burnt, bombed, sealed and coerced. Countless journalists have been harassed, threatened and killed. It has been my honour to belong to all those categories and now especially the last.&lt;/p&gt;</description></item></channel></rss>
