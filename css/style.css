@@ -27,7 +27,7 @@
   /* Sizes */
   --font-size-base: 14px;
   --line-height: 1.6;
-  --max-width: 65ch;
+  --max-width: 960px;
 
   /* Spacing */
   --space-xs: 0.25rem;
@@ -108,14 +108,12 @@ a:hover {
 .wrapper {
   width: 100%;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-lg) var(--space-md);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-lg);
 }
 
 .centered-container {
-  max-width: var(--max-width);
   width: 100%;
 }
 
@@ -686,8 +684,6 @@ hr {
 
 .home {
   padding-top: var(--space-sm);
-  max-width: 780px;
-  margin: 0 auto;
 }
 
 /* ── Hero: Overlapping intro + transparent portrait ── */
@@ -696,7 +692,7 @@ hr {
   padding-bottom: var(--space-xl);
   border-bottom: 1px solid var(--border);
   margin-bottom: var(--space-xl);
-  min-height: 460px;
+  min-height: 520px;
   overflow: visible;
 }
 
@@ -707,7 +703,8 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: var(--space-md);
+  padding-top: 0;
+  min-height: 480px;
 }
 
 .home-name {
@@ -741,7 +738,8 @@ hr {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 340px;
+  width: 420px;
+  max-width: 45%;
   z-index: 1;
   pointer-events: none;
 }
@@ -783,15 +781,16 @@ hr {
   z-index: 1;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 880px) {
   .home-hero {
     min-height: auto;
-    overflow: hidden;
+    overflow: visible;
     display: flex;
     flex-direction: column;
   }
   .home-hero-intro {
     max-width: 100%;
+    min-height: auto;
     padding-top: 0;
     order: 2;
   }
@@ -800,7 +799,7 @@ hr {
     right: auto;
     bottom: auto;
     width: auto;
-    max-width: 220px;
+    max-width: 280px;
     margin: 0 auto var(--space-md);
     display: flex;
     justify-content: center;
