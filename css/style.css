@@ -27,7 +27,7 @@
   /* Sizes */
   --font-size-base: 14px;
   --line-height: 1.6;
-  --max-width: 960px;
+  --max-width: 90ch;
 
   /* Spacing */
   --space-xs: 0.25rem;
