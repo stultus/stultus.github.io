@@ -139,10 +139,11 @@ a:hover {
 }
 
 .site-logo-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.5rem;
   border-bottom: none;
+  line-height: 1;
 }
 
 .site-logo-link:hover {
@@ -151,7 +152,7 @@ a:hover {
 }
 
 .site-logo {
-  height: 32px;
+  height: 36px;
   width: auto;
   margin: 0;
 }
@@ -159,10 +160,11 @@ a:hover {
 .site-wordmark {
   font-family: var(--font-heading);
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 18px;
   color: var(--text-primary);
-  letter-spacing: 0.02em;
+  line-height: 1;
 }
+
 
 .site-logo-light { display: block; }
 .site-logo-dark { display: none; }
@@ -207,8 +209,17 @@ body.dark-theme .site-logo-dark { display: block; }
   line-height: 1;
 }
 
-.desktop-nav-links a:hover {
+.desktop-nav-links a:hover,
+.desktop-nav-links a.nav-active {
   color: var(--accent);
+  font-weight: 700;
+  border-bottom: 2px solid var(--accent) !important;
+  padding-bottom: 2px;
+}
+
+.nav-link.nav-active {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 /* Mobile Nav */
