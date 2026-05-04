@@ -147,25 +147,132 @@
   .feed-count-live { margin-left: 0; }
 }
 
-/* ── /now/ page recent-feed lists ── */
-.now-feed-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 var(--space-md);
+/* ── /now/ page ── */
+.now { width: 100%; }
+
+.now-header {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border);
 }
-.now-feed-list li {
+.now-title {
+  font-size: 1.5rem;
+  margin: var(--space-sm) 0 var(--space-xs);
+}
+.now-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: var(--space-xs);
+}
+.now-subtitle a {
+  color: var(--text-muted);
+  border-bottom: 1px dotted var(--text-muted);
+  font-size: 0.85em;
+}
+.now-subtitle a:hover {
+  color: var(--link);
+  border-bottom-color: var(--link);
+}
+.now-updated {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-family: var(--font-code);
+  font-variant-numeric: tabular-nums;
+  margin: 0;
+}
+
+.now-body h2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-primary);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-sm);
-  padding: var(--space-xs) 0;
-  border-bottom: 1px dotted var(--border);
 }
-.now-feed-list li:last-child { border-bottom: none; }
-.now-feed-list li a { border-bottom: 1px dotted var(--link); }
+.now-body h2:first-child {
+  margin-top: 0;
+}
+.now-body h2::before {
+  content: "~";
+  color: var(--accent);
+  opacity: 0.8;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.95rem;
+}
+.now-body p {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+  line-height: 1.6;
+}
+.now-body p:last-of-type { margin-bottom: 0; }
+
+/* Unified bullet list — applies to markdown lists (Work, Building) and the
+   data-driven feed lists (Recently read, Recently watched). */
+.now-body ul,
+.now-feed {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.now-body ul li,
+.now-feed li {
+  position: relative;
+  padding: 2px 0 2px var(--space-md);
+  color: var(--text-secondary);
+  line-height: 1.45;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.now-body ul li::before,
+.now-feed li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+.now-body ul li a,
+.now-feed li > a {
+  color: var(--text-primary);
+  font-weight: 300;
+  border-bottom: 1px dotted var(--link);
+}
+.now-body ul li a:hover,
+.now-feed li > a:hover {
+  color: var(--link);
+  border-bottom-style: solid;
+}
+
 .now-feed-meta {
   color: var(--text-muted);
-  font-size: 0.9em;
+  font-size: 0.85em;
   font-variant-numeric: tabular-nums;
 }
-.now-feed-meta .stars { font-size: 0.9em; }
+.now-feed-meta .stars {
+  font-size: 0.85em;
+  vertical-align: -1px;
+}
+.now-feed-sep {
+  color: var(--text-muted);
+  opacity: 0.5;
+  margin: 0 0.05rem;
+}
+
+.now-see-all {
+  display: inline-block;
+  margin-top: var(--space-md);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  border-bottom: 1px dotted var(--text-muted);
+  font-family: var(--font-code);
+}
+.now-see-all:hover {
+  color: var(--link);
+  border-bottom-color: var(--link);
+}
