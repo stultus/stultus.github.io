@@ -139,7 +139,7 @@
 .feed-table th,
 .feed-table td {
   text-align: left;
-  vertical-align: baseline;
+  vertical-align: top;
 }
 .feed-table thead th {
   background: transparent;
@@ -155,7 +155,7 @@
   white-space: nowrap;
 }
 .feed-table tbody td {
-  padding: var(--space-sm) var(--space-md);
+  padding: var(--space-md) var(--space-md);
   border-bottom: 1px solid var(--border);
   line-height: 1.45;
 }
@@ -177,14 +177,19 @@
 .feed-table th.sorted-desc::after { content: " ↓"; color: var(--accent); opacity: 1; }
 
 /* Column-specific tweaks */
-.col-poster, .col-cover { width: 40px; padding: 6px var(--space-sm); }
+.col-poster, .col-cover {
+  width: 60px;
+  padding: var(--space-md) var(--space-sm) var(--space-md) 0;
+  vertical-align: top;
+}
 .feed-poster, .feed-cover {
   display: block;
-  width: 32px;
-  height: 48px;
-  object-fit: cover;
-  border-radius: 2px;
+  height: 72px;
+  width: auto;
+  max-width: 52px;
+  border-radius: 3px;
   background: var(--bg-secondary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 .col-title { font-weight: 400; }
 .col-title a {
@@ -237,10 +242,34 @@
 }
 
 @media (max-width: 600px) {
-  .feed-table th, .feed-table td { padding: var(--space-xs) var(--space-sm); }
   .feed-controls { flex-direction: column; align-items: stretch; }
   .feed-search, .feed-year-min, .feed-year-max { width: 100%; }
   .feed-count-live { margin-left: 0; }
+
+  /* Keep the table structure intact; just hide noisy columns and
+     tighten padding so the remaining content (poster + title + rating)
+     fits the viewport without horizontal scroll. */
+  .feed-table-wrap { overflow-x: visible; }
+  .feed-table thead th.col-year,
+  .feed-table thead th.col-watched,
+  .feed-table thead th.col-read,
+  .feed-table tbody td.col-year,
+  .feed-table tbody td.col-watched,
+  .feed-table tbody td.col-read {
+    display: none;
+  }
+  .feed-table th,
+  .feed-table td {
+    padding: var(--space-sm) var(--space-xs);
+  }
+  .col-poster, .col-cover {
+    width: 64px;
+    padding: var(--space-sm) var(--space-sm) var(--space-sm) 0;
+  }
+  .feed-poster, .feed-cover { height: 84px; width: auto; max-width: 56px; }
+  .col-title { font-size: 0.95rem; line-height: 1.35; }
+  .col-author { font-size: 0.82rem; }
+  .feed-table .stars { font-size: 0.85em; }
 }
 
 /* ── /now/ page ── */
