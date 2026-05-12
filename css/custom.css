@@ -2,6 +2,13 @@
  * Add any site-specific customizations here
  */
 
+/* ── Top navigation: match /notes/ subsite sizing ── */
+/* The Quartz-based /notes/ uses 12.6px links with 21px gap; the Hugo
+   theme defaulted to 14.4px / 24px, which read as a noticeable zoom
+   difference when navigating between the two. Bring them in line. */
+.desktop-nav-links { gap: 21px; }
+.desktop-nav-links a { font-size: 0.7875rem; }
+
 /* ── /movies/ and /books/ feed pages ── */
 
 .feed-page { width: 100%; }
