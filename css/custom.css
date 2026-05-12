@@ -94,6 +94,8 @@
   padding: 6px 10px;
   border-radius: 4px;
   transition: border-color var(--transition);
+  -webkit-appearance: none;
+  appearance: none;
 }
 .feed-controls input:focus,
 .feed-controls select:focus {
@@ -101,6 +103,15 @@
   border-color: var(--accent);
 }
 .feed-controls input::placeholder { color: var(--text-muted); opacity: 0.7; }
+.feed-controls input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 14px;
+  width: 14px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><line x1='18' y1='6' x2='6' y2='18'/><line x1='6' y1='6' x2='18' y2='18'/></svg>") center/contain no-repeat;
+  cursor: pointer;
+  opacity: 0.6;
+}
 .feed-controls input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
@@ -110,9 +121,25 @@
   -webkit-appearance: none;
   margin: 0;
 }
-.feed-search { flex: 1 1 18rem; min-width: 12rem; }
-.feed-year-min, .feed-year-max { width: 7rem; }
-.feed-rating-min { font-family: var(--font-body); }
+.feed-controls .feed-search {
+  flex: 1 1 18rem;
+  min-width: 12rem;
+  padding: 6px 10px 6px 30px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><circle cx='11' cy='11' r='7'/><path d='m20.5 20.5-4-4'/></svg>");
+  background-repeat: no-repeat;
+  background-position: 9px 50%;
+  background-size: 14px 14px;
+}
+.feed-controls .feed-year-min,
+.feed-controls .feed-year-max { width: 7rem; }
+.feed-controls .feed-rating-min {
+  font-family: var(--font-body);
+  padding: 6px 28px 6px 10px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px 12px;
+}
 .feed-count-live {
   margin-left: auto;
   color: var(--text-muted);
@@ -242,33 +269,88 @@
 }
 
 @media (max-width: 600px) {
-  .feed-controls { flex-direction: column; align-items: stretch; }
-  .feed-search, .feed-year-min, .feed-year-max { width: 100%; }
-  .feed-count-live { margin-left: 0; }
+  /* Compact 2-col grid. Critical: resets flex on .feed-search, whose
+     flex-basis (18rem) otherwise became the input HEIGHT when the parent
+     flexed in column direction — making the search box ~288px tall. */
+  .feed-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-sm);
+    row-gap: var(--space-xs);
+    margin: var(--space-md) 0 var(--space-lg);
+    align-items: center;
+  }
+  .feed-controls input,
+  .feed-controls select {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    font-size: 0.88rem;
+  }
+  .feed-controls .feed-search {
+    grid-column: 1 / -1;
+    flex: none;
+    min-width: 0;
+    padding: 9px 12px 9px 32px;
+    background-position: 11px 50%;
+  }
+  .feed-controls .feed-year-min,
+  .feed-controls .feed-year-max {
+    padding: 9px 10px;
+  }
+  .feed-controls .feed-rating-min {
+    grid-column: 1 / -1;
+    padding: 9px 28px 9px 10px;
+  }
+  .feed-count-live {
+    grid-column: 1 / -1;
+    margin: 2px 0 0;
+    text-align: right;
+  }
 
   /* Keep the table structure intact; just hide noisy columns and
      tighten padding so the remaining content (poster + title + rating)
      fits the viewport without horizontal scroll. */
-  .feed-table-wrap { overflow-x: visible; }
+  .feed-table-wrap { overflow-x: hidden; }
+  .feed-table { table-layout: fixed; }
+  .feed-table thead th {
+    white-space: normal;
+    letter-spacing: 0.08em;
+    padding-left: var(--space-xs);
+    padding-right: var(--space-xs);
+  }
   .feed-table thead th.col-year,
   .feed-table thead th.col-watched,
   .feed-table thead th.col-read,
+  .feed-table thead th.col-author,
   .feed-table tbody td.col-year,
   .feed-table tbody td.col-watched,
-  .feed-table tbody td.col-read {
+  .feed-table tbody td.col-read,
+  .feed-table tbody td.col-author {
     display: none;
   }
-  .feed-table th,
-  .feed-table td {
+  .feed-table thead th,
+  .feed-table tbody td {
     padding: var(--space-sm) var(--space-xs);
+    overflow-wrap: break-word;
+    word-break: normal;
   }
   .col-poster, .col-cover {
-    width: 64px;
+    width: 60px;
     padding: var(--space-sm) var(--space-sm) var(--space-sm) 0;
   }
   .feed-poster, .feed-cover { height: 84px; width: auto; max-width: 56px; }
   .col-title { font-size: 0.95rem; line-height: 1.35; }
   .col-author { font-size: 0.82rem; }
+  /* Tight rating column: just wide enough for the 5-star glyphs + small
+     breathing room, left-aligned so stars sit right next to the title. */
+  .feed-table .col-rating {
+    width: 64px;
+    text-align: left;
+    padding-left: 0;
+    padding-right: var(--space-xs);
+  }
+  .feed-table thead th.col-rating { padding-right: var(--space-xs); }
   .feed-table .stars { font-size: 0.85em; }
 }
 
